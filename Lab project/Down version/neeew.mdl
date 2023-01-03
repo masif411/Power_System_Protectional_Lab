@@ -1,0 +1,4407 @@
+Model {
+  Name			  "neeew"
+  Version		  8.3
+  SavedCharacterEncoding  "windows-1252"
+  GraphicalInterface {
+    NumRootInports	    0
+    NumRootOutports	    0
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.4"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+  }
+  slprops.hdlmdlprops {
+    $PropName		    "HDLParams"
+    $ObjectID		    1
+    Array {
+      Type		      "Cell"
+      Dimension		      2
+      Cell		      "HDLSubsystem"
+      Cell		      "neeew"
+      PropName		      "mdlProps"
+    }
+  }
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  UserBdParams		  "PhysicalModelingChecksum;PhysicalModelingParameterChecksum;PhysicalModelingProducts"
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    2
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      3
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [-8.0, -8.0, 1382.0, 754.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		5
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Object {
+	$PropName		"EditorsInfo"
+	$ObjectID		6
+	$ClassName		"Simulink.EditorInfo"
+	IsActive		[1]
+	ViewObjType		"SimulinkTopLevel"
+	LoadSaveID		"0"
+	Extents			[1328.0, 512.0]
+	ZoomFactor		[1.25]
+	Offset			[-457.00778816199323, 58.912772585670893]
+      }
+    }
+  }
+  PhysicalModelingChecksum "4246907545"
+  PhysicalModelingParameterChecksum "2144034049"
+  PhysicalModelingProducts "Power_System_Blocks"
+  Created		  "Thu Dec 08 07:45:11 2022"
+  Creator		  "DELL"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "Ayyan LapTop"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Mon Dec 12 10:16:12 2022"
+  RTWModifiedTimeStamp	  592740972
+  ModelVersionFormat	  "1.%<AutoIncrement:0>"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "disabled"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  ShowLinearizationAnnotations on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  SimulationMode	  "normal"
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    9
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "neeew"
+    overrideMode_	    [0.0]
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "neeew"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      []
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dwe"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  off
+  CovForceBlockReductionOff on
+  CovEnableCumulative	  on
+  covSaveCumulativeToWorkspaceVar off
+  CovSaveSingleToWorkspaceVar off
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  CovReportOnPause	  on
+  CovModelRefEnable	  "Off"
+  CovExternalEMLEnable	  on
+  CovSFcnEnable		  on
+  CovBoundaryAbsTol	  0.000010
+  CovBoundaryRelTol	  0.010000
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      10
+      Version		      "1.14.2"
+      Array {
+	Type			"Handle"
+	Dimension		10
+	Simulink.SolverCC {
+	  $ObjectID		  11
+	  Version		  "1.14.2"
+	  Components		  []
+	  StartTime		  "0.0"
+	  StopTime		  "1"
+	  AbsTol		  "auto"
+	  FixedStep		  "auto"
+	  InitialStep		  "auto"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  SolverMode		  "SingleTasking"
+	  EnableConcurrentExecution off
+	  ConcurrentTasks	  off
+	  SolverName		  "ode23tb"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Adaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	  Solver		  ode23tb
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  12
+	  Version		  "1.14.2"
+	  Components		  []
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  off
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "StructureWithTime"
+	  SignalLoggingSaveFormat "Dataset"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  13
+	  Version		  "1.14.2"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    9
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    Cell		    "EfficientTunableParamExpr"
+	    PropName		    "DisabledProps"
+	  }
+	  Components		  []
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  InlineParams		  off
+	  UseIntDivNetSlope	  off
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  ExpressionDepthLimit	  128
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  OptimizeModelRefInitCode off
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "Off"
+	  AccelVerboseBuild	  off
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  14
+	  Version		  "1.14.2"
+	  Components		  []
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Simplified"
+	  MergeDetectMultiDrivingBlocksExec "error"
+	  CheckExecutionContextPreStartOutputMsg off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "none"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "none"
+	  InheritedTsInSrcMsg	  "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  FcnCallInpInsideContextMsg "EnableAllAsError"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "error"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "none"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "error"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "error"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnconditionalTransitionShadowingDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	  ModelReferenceCSMismatchMessage "none"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  15
+	  Version		  "1.14.2"
+	  Components		  []
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  64
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "Float"
+	  ProdIntDivRoundTo	  "Zero"
+	  ProdEndianess		  "LittleEndian"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
+	  ProdHWDeviceType	  "Specified"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  16
+	  Version		  "1.14.2"
+	  Components		  []
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel on
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  17
+	  Version		  "1.14.2"
+	  Components		  []
+	  SFSimEcho		  on
+	  SimCtrlC		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimGenImportedTypeDefs  off
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  18
+	  Version		  "1.14.2"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    16
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "PortableWordSizes"
+	    Cell		    "GenerateWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    Cell		    "GenerateCodeReplacementReport"
+	    Cell		    "GenerateMissedCodeReplacementReport"
+	    Cell		    "GenerateErtSFunction"
+	    Cell		    "CreateSILPILBlock"
+	    Cell		    "CodeExecutionProfiling"
+	    Cell		    "CodeProfilingSaveOptions"
+	    Cell		    "CodeProfilingInstrumentation"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "grt.tlc"
+	  TLCOptions		  ""
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  TemplateMakefile	  "grt_default_tmf"
+	  PostCodeGenCommand	  ""
+	  GenerateReport	  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  Toolchain		  "Automatically locate an installed toolchain"
+	  BuildConfiguration	  "Faster Builds"
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation off
+	  SILDebugging		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  RTWCompilerOptimization "Off"
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  SharedConstantsCachingThreshold 1024
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      19
+	      Version		      "1.14.2"
+	      Array {
+		Type			"Cell"
+		Dimension		28
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"IgnoreTestpoints"
+		Cell			"BlockCommentType"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InternalIdentifier"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrModelFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"CustomSymbolStrUtil"
+		Cell			"CustomSymbolStrEmxType"
+		Cell			"CustomSymbolStrEmxFcn"
+		Cell			"CustomUserTokenString"
+		Cell			"ReqsInCode"
+		PropName		"DisabledProps"
+	      }
+	      Components	      []
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      CommentStyle	      "Auto"
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      OperatorAnnotations     off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M_T"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InternalIdentifier      "Shortened"
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      20
+	      Version		      "1.14.2"
+	      Array {
+		Type			"Cell"
+		Dimension		17
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"ExistingSharedCode"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"GenerateAllocFcn"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		Cell			"RemoveDisableFunc"
+		Cell			"RemoveResetFunc"
+		Cell			"PreserveStateflowLocalDataDimensions"
+		Cell			"CombineOutputUpdateFcns"
+		PropName		"DisabledProps"
+	      }
+	      Components	      []
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C99 (ISO)"
+	      CodeReplacementLibrary  "None"
+	      UtilityFuncGeneration   "Auto"
+	      ERTMultiwordTypeDef     "System defined"
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
+	      IncludeMdlTerminateFcn  on
+	      CombineOutputUpdateFcns on
+	      CombineSignalStateStructs	off
+	      SuppressErrorStatus     off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      CodeInterfacePackaging  "Nonreusable function"
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      SupportVariableSizeSignals off
+	      ParenthesesLevel	      "Nominal"
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    on
+	      AutosarCompliant	      off
+	      GRTInterface	      off
+	      GenerateAllocFcn	      off
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	      MultiInstanceErrorCode  "Error"
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	hdlcoderui.hdlcc {
+	  $ObjectID		  22
+	  Version		  "1.14.2"
+	  Description		  "HDL Coder custom configuration component"
+	  Components		  []
+	  Name			  "HDL Coder"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    " "
+	    PropName		    "HDLConfigFile"
+	  }
+	  HDLCActiveTab		  "0"
+	}
+	SSC.SimscapeCC {
+	  $ObjectID		  23
+	  Version		  "1.14.2"
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    1
+	    simmechanics.ConfigurationSet {
+	      $ObjectID		      24
+	      Version		      "1.14.2"
+	      Description	      "Simscape Multibody"
+	      Array {
+		Type			"Handle"
+		Dimension		2
+		simmechanics.DiagnosticsConfigSet {
+		  $ObjectID		  25
+		  Version		  "21.0.0"
+		  DisabledProps		  []
+		  Description		  "Diagnostics"
+		  Components		  []
+		  Name			  "DiagnosticsConfigSet"
+		  SimMechanicsInvalidVisualProperty "warning"
+		  SimMechanicsCrossSectionNullEdge "warning"
+		  SimMechanicsUnconnectedFramePorts "warning"
+		  SimMechanicsUnconnectedGeometryPorts "warning"
+		  SimMechanicsRedundantBlock "warning"
+		  SimMechanicsConflictingReferenceFrames "warning"
+		  SimMechanicsRigidlyBoundBlock	"error"
+		  SimMechanicsUnsatisfiedHighPriorityTargets "warning"
+		  SimMechanicsJointTargetOverSpecification "error"
+		}
+		simmechanics.ExplorerConfigSet {
+		  $ObjectID		  26
+		  Version		  "21.0.0"
+		  DisabledProps		  []
+		  Description		  "Explorer"
+		  Components		  []
+		  Name			  "ExplorerConfigSet"
+		  SimMechanicsOpenEditorOnUpdate on
+		  InternalSimMechanicsExplorerSettings ""
+		}
+		PropName		"Components"
+	      }
+	      Name		      SimMechanics2G
+	    }
+	    PropName		    "Components"
+	  }
+	  Name			  "Simscape"
+	  EditingMode		  "Full"
+	  ExplicitSolverDiagnosticOptions "warning"
+	  GlobalZcOffDiagnosticOptions "warning"
+	  SimscapeNormalizeSystem on
+	  SimscapeNominalValues	  "[{\"value\":\"1\",\"unit\":\"A\"},{\"value\":\"1\",\"unit\":\"bar\"},{\"value\":\"1\",\"un"
+	  "it\":\"cm^2\"},{\"value\":\"1\",\"unit\":\"cm^3/s\"},{\"value\":\"1\",\"unit\":\"kJ/kg\"},{\"value\":\"1\",\"unit\""
+	  ":\"kW\"},{\"value\":\"1\",\"unit\":\"l\"},{\"value\":\"1\",\"unit\":\"N\"},{\"value\":\"1\",\"unit\":\"N*m\"},{\"va"
+	  "lue\":\"1\",\"unit\":\"V\"}]"
+	  SimscapeLogType	  "none"
+	  SimscapeLogSimulationStatistics off
+	  SimscapeLogToSDI	  off
+	  SimscapeLogOpenViewer	  off
+	  SimscapeLogName	  "simlog"
+	  SimscapeLogDecimation	  1
+	  SimscapeLogLimitData	  on
+	  SimscapeLogDataHistory  5000
+	  SimscapeUseOperatingPoints off
+	  SimscapeOperatingPoint  ""
+	  SelectedTab		  ""
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition    [ 71, 70, 1061, 698 ]
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    10
+  }
+  Object {
+    $PropName		    "DataTransfer"
+    $ObjectID		    27
+    $ClassName		    "Simulink.GlobalDataTransfer"
+    DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
+    DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
+    DefaultTransitionBetweenContTasks "Ensure deterministic transfer (minimum delay)"
+    DefaultExtrapolationMethodBetweenContTasks "None"
+  }
+  ExplicitPartitioning	  off
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "left"
+    VerticalAlignment	    "top"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "on"
+    RunInitForIconRedraw    "off"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      SamplingMode	      "Sample based"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
+      LockScale		      off
+      SampleTime	      "inf"
+      FramePeriod	      "inf"
+      PreserveConstantTs      off
+    }
+    Block {
+      BlockType		      Scope
+    }
+  }
+  System {
+    Name		    "neeew"
+    Location		    [-8, -8, 1374, 746]
+    Open		    off
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "125"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "80"
+    Block {
+      BlockType		      Reference
+      Name		      "13.8 kV"
+      SID		      "1"
+      Ports		      [0, 0, 0, 0, 0, 1, 3]
+      Position		      [139, 65, 181, 110]
+      ZOrder		      127
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "yellow"
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseProgrammableVoltageSourceLib/Three-Phase\nProgrammable\nVoltage Source"
+      SourceType	      "Three-Phase Programmable Voltage Source"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      PositiveSequence	      "[13.8e3 0 60]"
+      VariationEntity	      "Amplitude"
+      VariationType	      "Table of time-amplitude pairs"
+      VariationTypeAlt	      "Step"
+      VariationStep	      "-0.2"
+      VariationRate	      "10"
+      VariationMagnitude      "0.3"
+      VariationFrequency      "2"
+      VariationTiming	      "[0.05 0.05+5/60]"
+      VariationPhaseA	      off
+      Amplitudes	      "[1 0.75 1.0]"
+      TimeValues	      "[0 0.03 0.13]"
+      HarmonicGeneration      off
+      HarmonicA		      "[1 -0.1 0 2]"
+      HarmonicB		      "[2 0.15 35 2]*0"
+      Timing		      "[0.1  2]"
+      BusType		      "PV"
+      Pref		      "100e6"
+      Qref		      "0"
+      Qmin		      "-inf"
+      Qmax		      "inf"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "13.8 kV / 230 kV\n100 MVA1"
+      SID		      "2"
+      Ports		      [0, 0, 0, 0, 0, 3, 3]
+      Position		      [155, 425, 205, 480]
+      ZOrder		      166
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "yellow"
+      NamePlacement	      "alternate"
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseTransformerTwoWindingsLib/Three-Phase\nTransformer\n(Two Windings)"
+      SourceType	      "Three-Phase Transformer (Two Windings)"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      Winding1Connection      "Delta (D1)"
+      Winding2Connection      "Yg"
+      CoreType		      "Three single-phase transformers"
+      SetSaturation	      off
+      Hysteresis	      off
+      DataFile		      "'basic_model'"
+      SetInitialFlux	      off
+      Measurements	      "None"
+      UNITS		      "pu"
+      NominalPower	      "[100e6 60 ]"
+      Winding1		      "[ 13.8e3  0.1/30   0.1 ]"
+      Winding2		      "[ 230e3  0.1/30  0.1]"
+      Rm		      "500"
+      Lm		      "500"
+      L0		      "0.5"
+      Saturation	      "[ 0,0  ;  0.005,1.2  ;  1.0,1.4 ]"
+      InitialFluxes	      "[ 0.8 , -0.8 , 0.7 ]"
+      BreakLoop		      off
+      DiscreteSolver	      "Trapezoidal iterative"
+      DataType		      off
+      TransfoNumber	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "15 kV"
+      SID		      "3"
+      Ports		      [0, 0, 0, 0, 0, 1, 3]
+      Position		      [1049, 170, 1091, 215]
+      ZOrder		      165
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "yellow"
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseProgrammableVoltageSourceLib/Three-Phase\nProgrammable\nVoltage Source"
+      SourceType	      "Three-Phase Programmable Voltage Source"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      PositiveSequence	      "[15e3 0 60]"
+      VariationEntity	      "Amplitude"
+      VariationType	      "Table of time-amplitude pairs"
+      VariationTypeAlt	      "Step"
+      VariationStep	      "-0.2"
+      VariationRate	      "10"
+      VariationMagnitude      "0.3"
+      VariationFrequency      "2"
+      VariationTiming	      "[0.05 0.05+5/60]"
+      VariationPhaseA	      off
+      Amplitudes	      "[1 0.75 1.0]"
+      TimeValues	      "[0 0.03 0.13]"
+      HarmonicGeneration      off
+      HarmonicA		      "[1 -0.1 0 2]"
+      HarmonicB		      "[2 0.15 35 2]*0"
+      Timing		      "[0.1  2]"
+      BusType		      "PQ"
+      Pref		      "200e6"
+      Qref		      "inf"
+      Qmin		      "-inf"
+      Qmax		      "inf"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "230 kV / 15 kV\n200 MVA"
+      SID		      "4"
+      Ports		      [0, 0, 0, 0, 0, 3, 3]
+      Position		      [1050, 465, 1100, 520]
+      ZOrder		      161
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "yellow"
+      NamePlacement	      "alternate"
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseTransformerTwoWindingsLib/Three-Phase\nTransformer\n(Two Windings)"
+      SourceType	      "Three-Phase Transformer (Two Windings)"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      Winding1Connection      "Delta (D1)"
+      Winding2Connection      "Yg"
+      CoreType		      "Three single-phase transformers"
+      SetSaturation	      off
+      Hysteresis	      off
+      DataFile		      "'basic_model'"
+      SetInitialFlux	      off
+      Measurements	      "None"
+      UNITS		      "pu"
+      NominalPower	      "[200e6 60 ]"
+      Winding1		      "[ 15e3  0.1/30   0.1 ]"
+      Winding2		      "[ 230e3  0.1/30  0.1]"
+      Rm		      "500"
+      Lm		      "500"
+      L0		      "0.5"
+      Saturation	      "[ 0,0  ;  0.005,1.2  ;  1.0,1.4 ]"
+      InitialFluxes	      "[ 0.8 , -0.8 , 0.7 ]"
+      BreakLoop		      off
+      DiscreteSolver	      "Trapezoidal iterative"
+      DataType		      off
+      TransfoNumber	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "B1\n(13.8 kV)"
+      SID		      "5"
+      Ports		      [0, 0, 0, 0, 0, 3, 3]
+      Position		      [137, 160, 183, 165]
+      ZOrder		      126
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "black"
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseVIMeasurementLib/Three-Phase\nV-I Measurement"
+      SourceType	      "Three-Phase VI Measurement"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      VoltageMeasurement      "no"
+      SetLabelV		      off
+      LabelV		      "Vabc_B120"
+      Vpu		      off
+      VpuLL		      off
+      CurrentMeasurement      "no"
+      SetLabelI		      on
+      LabelI		      "Iabc_B120"
+      Ipu		      off
+      Pbase		      "100e6"
+      Vbase		      "120e3"
+      OutputType	      "Complex"
+      PhasorSimulation	      off
+      PSBequivalent	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "B2\n(230 kV)"
+      SID		      "6"
+      Ports		      [0, 0, 0, 0, 0, 3, 3]
+      Position		      [157, 630, 203, 635]
+      ZOrder		      130
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "black"
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseVIMeasurementLib/Three-Phase\nV-I Measurement"
+      SourceType	      "Three-Phase VI Measurement"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      VoltageMeasurement      "no"
+      SetLabelV		      off
+      LabelV		      "Vabc_B120"
+      Vpu		      off
+      VpuLL		      off
+      CurrentMeasurement      "no"
+      SetLabelI		      on
+      LabelI		      "Iabc_B120"
+      Ipu		      off
+      Pbase		      "100e6"
+      Vbase		      "120e3"
+      OutputType	      "Complex"
+      PhasorSimulation	      off
+      PSBequivalent	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "B3\n(230 kV)"
+      SID		      "7"
+      Ports		      [0, 0, 0, 0, 0, 3, 3]
+      Position		      [182, 1140, 228, 1145]
+      ZOrder		      136
+      BlockRotation	      270
+      BlockMirror	      on
+      BackgroundColor	      "black"
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseVIMeasurementLib/Three-Phase\nV-I Measurement"
+      SourceType	      "Three-Phase VI Measurement"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      VoltageMeasurement      "no"
+      SetLabelV		      off
+      LabelV		      "Vabc_B120"
+      Vpu		      off
+      VpuLL		      off
+      CurrentMeasurement      "no"
+      SetLabelI		      on
+      LabelI		      "Iabc_B120"
+      Ipu		      off
+      Pbase		      "100e6"
+      Vbase		      "120e3"
+      OutputType	      "Complex"
+      PhasorSimulation	      off
+      PSBequivalent	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "B4\n(230 kV)"
+      SID		      "8"
+      Ports		      [0, 0, 0, 0, 0, 3, 3]
+      Position		      [500, 1482, 505, 1528]
+      ZOrder		      142
+      BlockMirror	      on
+      BackgroundColor	      "black"
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseVIMeasurementLib/Three-Phase\nV-I Measurement"
+      SourceType	      "Three-Phase VI Measurement"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      VoltageMeasurement      "no"
+      SetLabelV		      off
+      LabelV		      "Vabc_B120"
+      Vpu		      off
+      VpuLL		      off
+      CurrentMeasurement      "no"
+      SetLabelI		      on
+      LabelI		      "Iabc_B120"
+      Ipu		      off
+      Pbase		      "100e6"
+      Vbase		      "120e3"
+      OutputType	      "Complex"
+      PhasorSimulation	      off
+      PSBequivalent	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "B5\n(230 kV)"
+      SID		      "9"
+      Ports		      [0, 0, 0, 0, 0, 3, 3]
+      Position		      [1080, 1462, 1085, 1508]
+      ZOrder		      153
+      BlockMirror	      on
+      BackgroundColor	      "black"
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseVIMeasurementLib/Three-Phase\nV-I Measurement"
+      SourceType	      "Three-Phase VI Measurement"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      VoltageMeasurement      "no"
+      SetLabelV		      off
+      LabelV		      "Vabc_B120"
+      Vpu		      off
+      VpuLL		      off
+      CurrentMeasurement      "no"
+      SetLabelI		      on
+      LabelI		      "Iabc_B120"
+      Ipu		      off
+      Pbase		      "100e6"
+      Vbase		      "120e3"
+      OutputType	      "Complex"
+      PhasorSimulation	      off
+      PSBequivalent	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "B6\n(230 kV)"
+      SID		      "10"
+      Ports		      [0, 0, 0, 0, 0, 3, 3]
+      Position		      [1052, 755, 1098, 760]
+      ZOrder		      159
+      BlockRotation	      270
+      BackgroundColor	      "black"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseVIMeasurementLib/Three-Phase\nV-I Measurement"
+      SourceType	      "Three-Phase VI Measurement"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      VoltageMeasurement      "no"
+      SetLabelV		      off
+      LabelV		      "Vabc_B120"
+      Vpu		      off
+      VpuLL		      off
+      CurrentMeasurement      "no"
+      SetLabelI		      on
+      LabelI		      "Iabc_B120"
+      Ipu		      off
+      Pbase		      "100e6"
+      Vbase		      "120e3"
+      OutputType	      "Complex"
+      PhasorSimulation	      off
+      PSBequivalent	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "B7\n(15 kV)"
+      SID		      "11"
+      Ports		      [0, 0, 0, 0, 0, 3, 3]
+      Position		      [1047, 240, 1093, 245]
+      ZOrder		      163
+      BlockRotation	      270
+      BackgroundColor	      "black"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseVIMeasurementLib/Three-Phase\nV-I Measurement"
+      SourceType	      "Three-Phase VI Measurement"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      VoltageMeasurement      "no"
+      SetLabelV		      off
+      LabelV		      "Vabc_B120"
+      Vpu		      off
+      VpuLL		      off
+      CurrentMeasurement      "no"
+      SetLabelI		      on
+      LabelI		      "Iabc_B120"
+      Ipu		      off
+      Pbase		      "100e6"
+      Vbase		      "120e3"
+      OutputType	      "Complex"
+      PhasorSimulation	      off
+      PSBequivalent	      "0"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant"
+      SID		      "12"
+      Position		      [110, 315, 140, 345]
+      ZOrder		      183
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant1"
+      SID		      "13"
+      Position		      [110, 490, 140, 520]
+      ZOrder		      184
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant10"
+      SID		      "14"
+      Position		      [1240, 1115, 1270, 1145]
+      ZOrder		      193
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant11"
+      SID		      "15"
+      Position		      [665, 990, 695, 1020]
+      ZOrder		      194
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant12"
+      SID		      "16"
+      Position		      [960, 650, 990, 680]
+      ZOrder		      195
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant13"
+      SID		      "17"
+      Position		      [940, 440, 970, 470]
+      ZOrder		      196
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant2"
+      SID		      "18"
+      Position		      [125, 770, 155, 800]
+      ZOrder		      185
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant3"
+      SID		      "19"
+      Position		      [115, 1020, 145, 1050]
+      ZOrder		      186
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant4"
+      SID		      "20"
+      Position		      [40, 1205, 70, 1235]
+      ZOrder		      187
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant5"
+      SID		      "21"
+      Position		      [320, 1415, 350, 1445]
+      ZOrder		      188
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant6"
+      SID		      "22"
+      Position		      [475, 1355, 505, 1385]
+      ZOrder		      189
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant7"
+      SID		      "23"
+      Position		      [475, 1400, 505, 1430]
+      ZOrder		      190
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant8"
+      SID		      "24"
+      Position		      [910, 1420, 940, 1450]
+      ZOrder		      191
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant9"
+      SID		      "25"
+      Position		      [1125, 1405, 1155, 1435]
+      ZOrder		      192
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Ground1"
+      SID		      "26"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [154, 15, 166, 35]
+      ZOrder		      125
+      BlockRotation	      270
+      NamePlacement	      "alternate"
+      ShowName		      off
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsGroundLib/Ground"
+      SourceType	      "Ground"
+      LConnTagsString	      "a"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Ground2"
+      SID		      "27"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [1064, 120, 1076, 140]
+      ZOrder		      164
+      BlockRotation	      270
+      NamePlacement	      "alternate"
+      ShowName		      off
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsGroundLib/Ground"
+      SourceType	      "Ground"
+      LConnTagsString	      "a"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line1"
+      SID		      "28"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [159, 910, 171, 1000]
+      ZOrder		      131
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsPiSectionLineLib/Pi Section Line"
+      SourceType	      "Pi Section Line"
+      LConnTagsString	      "__new0"
+      RConnTagsString	      "__new0"
+      Phases		      "1"
+      PiSections	      "2"
+      Length		      "15"
+      Frequency		      "50"
+      Resistance	      ".08"
+      Inductance	      ".0016"
+      Capacitance	      "1e-6"
+      Measurements	      "None"
+      Measurements2	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line10"
+      SID		      "29"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [734, 1065, 746, 1155]
+      ZOrder		      149
+      BlockRotation	      270
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsPiSectionLineLib/Pi Section Line"
+      SourceType	      "Pi Section Line"
+      LConnTagsString	      "__new0"
+      RConnTagsString	      "__new0"
+      Phases		      "1"
+      PiSections	      "2"
+      Length		      "50"
+      Frequency		      "50"
+      Resistance	      ".08"
+      Inductance	      ".0016"
+      Capacitance	      "1e-6"
+      Measurements	      "None"
+      Measurements2	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line11"
+      SID		      "30"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [784, 1065, 796, 1155]
+      ZOrder		      150
+      BlockRotation	      270
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsPiSectionLineLib/Pi Section Line"
+      SourceType	      "Pi Section Line"
+      LConnTagsString	      "__new0"
+      RConnTagsString	      "__new0"
+      Phases		      "1"
+      PiSections	      "2"
+      Length		      "50"
+      Frequency		      "50"
+      Resistance	      ".08"
+      Inductance	      ".0016"
+      Capacitance	      "1e-6"
+      Measurements	      "None"
+      Measurements2	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line12"
+      SID		      "31"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [834, 1065, 846, 1155]
+      ZOrder		      151
+      BlockRotation	      270
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsPiSectionLineLib/Pi Section Line"
+      SourceType	      "Pi Section Line"
+      LConnTagsString	      "__new0"
+      RConnTagsString	      "__new0"
+      Phases		      "1"
+      PiSections	      "2"
+      Length		      "50"
+      Frequency		      "50"
+      Resistance	      ".08"
+      Inductance	      ".0016"
+      Capacitance	      "1e-6"
+      Measurements	      "None"
+      Measurements2	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line13"
+      SID		      "32"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [1289, 1215, 1301, 1305]
+      ZOrder		      154
+      BlockRotation	      270
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsPiSectionLineLib/Pi Section Line"
+      SourceType	      "Pi Section Line"
+      LConnTagsString	      "__new0"
+      RConnTagsString	      "__new0"
+      Phases		      "1"
+      PiSections	      "2"
+      Length		      "15"
+      Frequency		      "50"
+      Resistance	      ".08"
+      Inductance	      ".0016"
+      Capacitance	      "1e-6"
+      Measurements	      "None"
+      Measurements2	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line14"
+      SID		      "33"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [1344, 1215, 1356, 1305]
+      ZOrder		      155
+      BlockRotation	      270
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsPiSectionLineLib/Pi Section Line"
+      SourceType	      "Pi Section Line"
+      LConnTagsString	      "__new0"
+      RConnTagsString	      "__new0"
+      Phases		      "1"
+      PiSections	      "2"
+      Length		      "15"
+      Frequency		      "50"
+      Resistance	      ".08"
+      Inductance	      ".0016"
+      Capacitance	      "1e-6"
+      Measurements	      "None"
+      Measurements2	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line15"
+      SID		      "34"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [1399, 1215, 1411, 1305]
+      ZOrder		      156
+      BlockRotation	      270
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsPiSectionLineLib/Pi Section Line"
+      SourceType	      "Pi Section Line"
+      LConnTagsString	      "__new0"
+      RConnTagsString	      "__new0"
+      Phases		      "1"
+      PiSections	      "2"
+      Length		      "15"
+      Frequency		      "50"
+      Resistance	      ".08"
+      Inductance	      ".0016"
+      Capacitance	      "1e-6"
+      Measurements	      "None"
+      Measurements2	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line2"
+      SID		      "35"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [204, 910, 216, 1000]
+      ZOrder		      132
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsPiSectionLineLib/Pi Section Line"
+      SourceType	      "Pi Section Line"
+      LConnTagsString	      "__new0"
+      RConnTagsString	      "__new0"
+      Phases		      "1"
+      PiSections	      "2"
+      Length		      "15"
+      Frequency		      "50"
+      Resistance	      ".08"
+      Inductance	      ".0016"
+      Capacitance	      "1e-6"
+      Measurements	      "None"
+      Measurements2	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line3"
+      SID		      "36"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [249, 910, 261, 1000]
+      ZOrder		      133
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsPiSectionLineLib/Pi Section Line"
+      SourceType	      "Pi Section Line"
+      LConnTagsString	      "__new0"
+      RConnTagsString	      "__new0"
+      Phases		      "1"
+      PiSections	      "2"
+      Length		      "15"
+      Frequency		      "50"
+      Resistance	      ".08"
+      Inductance	      ".0016"
+      Capacitance	      "1e-6"
+      Measurements	      "None"
+      Measurements2	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line4"
+      SID		      "37"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [210, 1469, 300, 1481]
+      ZOrder		      139
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsPiSectionLineLib/Pi Section Line"
+      SourceType	      "Pi Section Line"
+      LConnTagsString	      "__new0"
+      RConnTagsString	      "__new0"
+      Phases		      "1"
+      PiSections	      "2"
+      Length		      "30"
+      Frequency		      "50"
+      Resistance	      ".08"
+      Inductance	      ".0016"
+      Capacitance	      "1e-6"
+      Measurements	      "None"
+      Measurements2	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line5"
+      SID		      "38"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [210, 1499, 300, 1511]
+      ZOrder		      140
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsPiSectionLineLib/Pi Section Line"
+      SourceType	      "Pi Section Line"
+      LConnTagsString	      "__new0"
+      RConnTagsString	      "__new0"
+      Phases		      "1"
+      PiSections	      "2"
+      Length		      "30"
+      Frequency		      "50"
+      Resistance	      ".08"
+      Inductance	      ".0016"
+      Capacitance	      "1e-6"
+      Measurements	      "None"
+      Measurements2	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line6"
+      SID		      "39"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [210, 1529, 300, 1541]
+      ZOrder		      141
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsPiSectionLineLib/Pi Section Line"
+      SourceType	      "Pi Section Line"
+      LConnTagsString	      "__new0"
+      RConnTagsString	      "__new0"
+      Phases		      "1"
+      PiSections	      "2"
+      Length		      "30"
+      Frequency		      "50"
+      Resistance	      ".08"
+      Inductance	      ".0016"
+      Capacitance	      "1e-6"
+      Measurements	      "None"
+      Measurements2	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line7"
+      SID		      "40"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [810, 1469, 900, 1481]
+      ZOrder		      145
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsPiSectionLineLib/Pi Section Line"
+      SourceType	      "Pi Section Line"
+      LConnTagsString	      "__new0"
+      RConnTagsString	      "__new0"
+      Phases		      "1"
+      PiSections	      "2"
+      Length		      "40"
+      Frequency		      "50"
+      Resistance	      ".08"
+      Inductance	      ".0016"
+      Capacitance	      "1e-6"
+      Measurements	      "None"
+      Measurements2	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line8"
+      SID		      "41"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [810, 1499, 900, 1511]
+      ZOrder		      146
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsPiSectionLineLib/Pi Section Line"
+      SourceType	      "Pi Section Line"
+      LConnTagsString	      "__new0"
+      RConnTagsString	      "__new0"
+      Phases		      "1"
+      PiSections	      "2"
+      Length		      "40"
+      Frequency		      "50"
+      Resistance	      ".08"
+      Inductance	      ".0016"
+      Capacitance	      "1e-6"
+      Measurements	      "None"
+      Measurements2	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Line9"
+      SID		      "42"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [810, 1529, 900, 1541]
+      ZOrder		      147
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsPiSectionLineLib/Pi Section Line"
+      SourceType	      "Pi Section Line"
+      LConnTagsString	      "__new0"
+      RConnTagsString	      "__new0"
+      Phases		      "1"
+      PiSections	      "2"
+      Length		      "40"
+      Frequency		      "50"
+      Resistance	      ".08"
+      Inductance	      ".0016"
+      Capacitance	      "1e-6"
+      Measurements	      "None"
+      Measurements2	      "None"
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "Scope"
+      SID		      "43"
+      Ports		      [2]
+      Position		      [151, 735, 184, 765]
+      ZOrder		      168
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      NumInputPorts	      "2"
+      Floating		      off
+      Open		      off
+      TimeRange		      auto
+      TickLabels	      OneTimeTick
+      ShowLegends	      off
+      LimitDataPoints	      off
+      MaxDataPoints	      5000
+      SaveToWorkspace	      off
+      SaveName		      ScopeData1
+      YMin		      "-5~-5"
+      YMax		      "5~5"
+      SampleInput	      off
+      SampleTime	      -1
+      ZoomMode		      on
+      Grid		      on
+      DataFormat	      StructureWithTime
+      Decimation	      1
+      List {
+	ListType		AxesTitles
+	axes1			"%<SignalLabel>"
+	axes2			"%<SignalLabel>"
+      }
+      List {
+	ListType		ScopeGraphics
+	FigureColor		"[0.156862745098039 0.156862745098039 0.156862745098039]"
+	AxesColor		"[0 0 0]"
+	AxesTickColor		"[0.686274509803922 0.686274509803922 0.686274509803922]"
+	LineColors		"[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	LineStyles		"-|-|-|-|-|-"
+	LineWidths		"[0.5 0.5 0.5 0.5 0.5 0.5]"
+	MarkerStyles		"none|none|none|none|none|none"
+      }
+      Location		      [1 46 1281 769]
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "Scope1"
+      SID		      "44"
+      Ports		      [2]
+      Position		      [936, 570, 969, 600]
+      ZOrder		      179
+      BlockRotation	      270
+      NumInputPorts	      "2"
+      Floating		      off
+      Open		      off
+      TimeRange		      auto
+      TickLabels	      OneTimeTick
+      ShowLegends	      off
+      LimitDataPoints	      off
+      MaxDataPoints	      5000
+      SaveToWorkspace	      off
+      SaveName		      ScopeData2
+      YMin		      "-5~-5"
+      YMax		      "5~5"
+      SampleInput	      off
+      SampleTime	      -1
+      ZoomMode		      on
+      Grid		      on
+      DataFormat	      StructureWithTime
+      Decimation	      1
+      List {
+	ListType		AxesTitles
+	axes1			"%<SignalLabel>"
+	axes2			"%<SignalLabel>"
+      }
+      List {
+	ListType		ScopeGraphics
+	FigureColor		"[0.156862745098039 0.156862745098039 0.156862745098039]"
+	AxesColor		"[0 0 0]"
+	AxesTickColor		"[0.686274509803922 0.686274509803922 0.686274509803922]"
+	LineColors		"[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	LineStyles		"-|-|-|-|-|-"
+	LineWidths		"[0.5 0.5 0.5 0.5 0.5 0.5]"
+	MarkerStyles		"none|none|none|none|none|none"
+      }
+      Location		      [1 46 1281 769]
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "Scope2"
+      SID		      "45"
+      Ports		      [2]
+      Position		      [106, 275, 139, 305]
+      ZOrder		      170
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      NumInputPorts	      "2"
+      Floating		      off
+      Open		      off
+      TimeRange		      auto
+      TickLabels	      OneTimeTick
+      ShowLegends	      off
+      LimitDataPoints	      off
+      MaxDataPoints	      5000
+      SaveToWorkspace	      off
+      SaveName		      ScopeData3
+      YMin		      "-24395.18395~-69245.32679"
+      YMax		      "24395.18395~68433.69318"
+      SampleInput	      off
+      SampleTime	      -1
+      ZoomMode		      on
+      Grid		      on
+      DataFormat	      StructureWithTime
+      Decimation	      1
+      List {
+	ListType		AxesTitles
+	axes1			"%<SignalLabel>"
+	axes2			"%<SignalLabel>"
+      }
+      List {
+	ListType		ScopeGraphics
+	FigureColor		"[0.156862745098039 0.156862745098039 0.156862745098039]"
+	AxesColor		"[0 0 0]"
+	AxesTickColor		"[0.686274509803922 0.686274509803922 0.686274509803922]"
+	LineColors		"[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	LineStyles		"-|-|-|-|-|-"
+	LineWidths		"[0.5 0.5 0.5 0.5 0.5 0.5]"
+	MarkerStyles		"none|none|none|none|none|none"
+      }
+      Location		      [43 36 1323 731]
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "Scope3"
+      SID		      "46"
+      Ports		      [2]
+      Position		      [991, 360, 1024, 390]
+      ZOrder		      181
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      NumInputPorts	      "2"
+      Floating		      off
+      Open		      off
+      TimeRange		      auto
+      TickLabels	      OneTimeTick
+      ShowLegends	      off
+      LimitDataPoints	      off
+      MaxDataPoints	      5000
+      SaveToWorkspace	      off
+      SaveName		      ScopeData4
+      YMin		      "-5~-5"
+      YMax		      "5~5"
+      SampleInput	      off
+      SampleTime	      -1
+      ZoomMode		      on
+      Grid		      on
+      DataFormat	      StructureWithTime
+      Decimation	      1
+      List {
+	ListType		AxesTitles
+	axes1			"%<SignalLabel>"
+	axes2			"%<SignalLabel>"
+      }
+      List {
+	ListType		ScopeGraphics
+	FigureColor		"[0.156862745098039 0.156862745098039 0.156862745098039]"
+	AxesColor		"[0 0 0]"
+	AxesTickColor		"[0.686274509803922 0.686274509803922 0.686274509803922]"
+	LineColors		"[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	LineStyles		"-|-|-|-|-|-"
+	LineWidths		"[0.5 0.5 0.5 0.5 0.5 0.5]"
+	MarkerStyles		"none|none|none|none|none|none"
+      }
+      Location		      [1 46 1281 769]
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "Scope4"
+      SID		      "47"
+      Ports		      [2]
+      Position		      [91, 1415, 124, 1445]
+      ZOrder		      172
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      NumInputPorts	      "2"
+      Floating		      off
+      Open		      off
+      TimeRange		      auto
+      TickLabels	      OneTimeTick
+      ShowLegends	      off
+      LimitDataPoints	      off
+      MaxDataPoints	      5000
+      SaveToWorkspace	      off
+      SaveName		      ScopeData5
+      YMin		      "-5~-5"
+      YMax		      "5~5"
+      SampleInput	      off
+      SampleTime	      -1
+      ZoomMode		      on
+      Grid		      on
+      DataFormat	      StructureWithTime
+      Decimation	      1
+      List {
+	ListType		AxesTitles
+	axes1			"%<SignalLabel>"
+	axes2			"%<SignalLabel>"
+      }
+      List {
+	ListType		ScopeGraphics
+	FigureColor		"[0.156862745098039 0.156862745098039 0.156862745098039]"
+	AxesColor		"[0 0 0]"
+	AxesTickColor		"[0.686274509803922 0.686274509803922 0.686274509803922]"
+	LineColors		"[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	LineStyles		"-|-|-|-|-|-"
+	LineWidths		"[0.5 0.5 0.5 0.5 0.5 0.5]"
+	MarkerStyles		"none|none|none|none|none|none"
+      }
+      Location		      [1 46 1281 769]
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "Scope5"
+      SID		      "48"
+      Ports		      [2]
+      Position		      [775, 1421, 805, 1454]
+      ZOrder		      173
+      NumInputPorts	      "2"
+      Floating		      off
+      Open		      off
+      TimeRange		      auto
+      TickLabels	      OneTimeTick
+      ShowLegends	      off
+      LimitDataPoints	      off
+      MaxDataPoints	      5000
+      SaveToWorkspace	      off
+      SaveName		      ScopeData6
+      YMin		      "-5~-5"
+      YMax		      "5~5"
+      SampleInput	      off
+      SampleTime	      -1
+      ZoomMode		      on
+      Grid		      on
+      DataFormat	      StructureWithTime
+      Decimation	      1
+      List {
+	ListType		AxesTitles
+	axes1			"%<SignalLabel>"
+	axes2			"%<SignalLabel>"
+      }
+      List {
+	ListType		ScopeGraphics
+	FigureColor		"[0.156862745098039 0.156862745098039 0.156862745098039]"
+	AxesColor		"[0 0 0]"
+	AxesTickColor		"[0.686274509803922 0.686274509803922 0.686274509803922]"
+	LineColors		"[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	LineStyles		"-|-|-|-|-|-"
+	LineWidths		"[0.5 0.5 0.5 0.5 0.5 0.5]"
+	MarkerStyles		"none|none|none|none|none|none"
+      }
+      Location		      [1 46 1281 769]
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "Scope6"
+      SID		      "49"
+      Ports		      [2]
+      Position		      [736, 1215, 769, 1245]
+      ZOrder		      175
+      BlockRotation	      270
+      NumInputPorts	      "2"
+      Floating		      off
+      Open		      off
+      TimeRange		      auto
+      TickLabels	      OneTimeTick
+      ShowLegends	      off
+      LimitDataPoints	      off
+      MaxDataPoints	      5000
+      SaveToWorkspace	      off
+      SaveName		      ScopeData7
+      YMin		      "-5~-5"
+      YMax		      "5~5"
+      SampleInput	      off
+      SampleTime	      -1
+      ZoomMode		      on
+      Grid		      on
+      DataFormat	      StructureWithTime
+      Decimation	      1
+      List {
+	ListType		AxesTitles
+	axes1			"%<SignalLabel>"
+	axes2			"%<SignalLabel>"
+      }
+      List {
+	ListType		ScopeGraphics
+	FigureColor		"[0.156862745098039 0.156862745098039 0.156862745098039]"
+	AxesColor		"[0 0 0]"
+	AxesTickColor		"[0.686274509803922 0.686274509803922 0.686274509803922]"
+	LineColors		"[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	LineStyles		"-|-|-|-|-|-"
+	LineWidths		"[0.5 0.5 0.5 0.5 0.5 0.5]"
+	MarkerStyles		"none|none|none|none|none|none"
+      }
+      Location		      [1 46 1281 769]
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "Scope7"
+      SID		      "50"
+      Ports		      [2]
+      Position		      [1455, 1436, 1485, 1469]
+      ZOrder		      177
+      NumInputPorts	      "2"
+      Floating		      off
+      Open		      off
+      TimeRange		      auto
+      TickLabels	      OneTimeTick
+      ShowLegends	      off
+      LimitDataPoints	      off
+      MaxDataPoints	      5000
+      SaveToWorkspace	      off
+      SaveName		      ScopeData
+      YMin		      "-5~-5"
+      YMax		      "5~5"
+      SampleInput	      off
+      SampleTime	      -1
+      ZoomMode		      on
+      Grid		      on
+      DataFormat	      StructureWithTime
+      Decimation	      1
+      List {
+	ListType		AxesTitles
+	axes1			"%<SignalLabel>"
+	axes2			"%<SignalLabel>"
+      }
+      List {
+	ListType		ScopeGraphics
+	FigureColor		"[0.156862745098039 0.156862745098039 0.156862745098039]"
+	AxesColor		"[0 0 0]"
+	AxesTickColor		"[0.686274509803922 0.686274509803922 0.686274509803922]"
+	LineColors		"[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	LineStyles		"-|-|-|-|-|-"
+	LineWidths		"[0.5 0.5 0.5 0.5 0.5 0.5]"
+	MarkerStyles		"none|none|none|none|none|none"
+      }
+      Location		      [1 46 1281 769]
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Breaker1"
+      SID		      "51"
+      Ports		      [1, 0, 0, 0, 0, 3, 3]
+      Position		      [145, 345, 210, 400]
+      ZOrder		      128
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseBreakerLib/Three-Phase Breaker"
+      SourceType	      "Three-Phase Breaker"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      InitialState	      "closed"
+      SwitchA		      on
+      SwitchB		      on
+      SwitchC		      on
+      SwitchTimes	      "[4/60  10/60]"
+      External		      on
+      BreakerResistance	      "0.001"
+      SnubberResistance	      "1e6"
+      SnubberCapacitance      "inf"
+      Measurements	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Breaker10"
+      SID		      "52"
+      Ports		      [1, 0, 0, 0, 0, 3, 3]
+      Position		      [757, 930, 828, 980]
+      ZOrder		      152
+      BlockRotation	      270
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseBreakerLib/Three-Phase Breaker"
+      SourceType	      "Three-Phase Breaker"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      InitialState	      "closed"
+      SwitchA		      on
+      SwitchB		      on
+      SwitchC		      on
+      SwitchTimes	      "[4/60  10/60]"
+      External		      on
+      BreakerResistance	      "0.001"
+      SnubberResistance	      "1e6"
+      SnubberCapacitance      "inf"
+      Measurements	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Breaker11"
+      SID		      "53"
+      Ports		      [1, 0, 0, 0, 0, 3, 3]
+      Position		      [1190, 1450, 1245, 1515]
+      ZOrder		      157
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseBreakerLib/Three-Phase Breaker"
+      SourceType	      "Three-Phase Breaker"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      InitialState	      "closed"
+      SwitchA		      on
+      SwitchB		      on
+      SwitchC		      on
+      SwitchTimes	      "[4/60  10/60]"
+      External		      on
+      BreakerResistance	      "0.001"
+      SnubberResistance	      "1e6"
+      SnubberCapacitance      "inf"
+      Measurements	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Breaker12"
+      SID		      "54"
+      Ports		      [1, 0, 0, 0, 0, 3, 3]
+      Position		      [1320, 1050, 1385, 1110]
+      ZOrder		      158
+      BlockRotation	      270
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseBreakerLib/Three-Phase Breaker"
+      SourceType	      "Three-Phase Breaker"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      InitialState	      "closed"
+      SwitchA		      on
+      SwitchB		      on
+      SwitchC		      on
+      SwitchTimes	      "[4/60  10/60]"
+      External		      on
+      BreakerResistance	      "0.001"
+      SnubberResistance	      "1e6"
+      SnubberCapacitance      "inf"
+      Measurements	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Breaker13"
+      SID		      "55"
+      Ports		      [1, 0, 0, 0, 0, 3, 3]
+      Position		      [1037, 550, 1108, 600]
+      ZOrder		      160
+      BlockRotation	      270
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseBreakerLib/Three-Phase Breaker"
+      SourceType	      "Three-Phase Breaker"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      InitialState	      "closed"
+      SwitchA		      on
+      SwitchB		      on
+      SwitchC		      on
+      SwitchTimes	      "[4/60  10/60]"
+      External		      on
+      BreakerResistance	      "0.001"
+      SnubberResistance	      "1e6"
+      SnubberCapacitance      "inf"
+      Measurements	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Breaker14"
+      SID		      "56"
+      Ports		      [1, 0, 0, 0, 0, 3, 3]
+      Position		      [1037, 390, 1108, 440]
+      ZOrder		      162
+      BlockRotation	      270
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseBreakerLib/Three-Phase Breaker"
+      SourceType	      "Three-Phase Breaker"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      InitialState	      "closed"
+      SwitchA		      on
+      SwitchB		      on
+      SwitchC		      on
+      SwitchTimes	      "[4/60  10/60]"
+      External		      on
+      BreakerResistance	      "0.001"
+      SnubberResistance	      "1e6"
+      SnubberCapacitance      "inf"
+      Measurements	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Breaker2"
+      SID		      "57"
+      Ports		      [1, 0, 0, 0, 0, 3, 3]
+      Position		      [150, 535, 215, 590]
+      ZOrder		      129
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseBreakerLib/Three-Phase Breaker"
+      SourceType	      "Three-Phase Breaker"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      InitialState	      "closed"
+      SwitchA		      on
+      SwitchB		      on
+      SwitchC		      on
+      SwitchTimes	      "[4/60  10/60]"
+      External		      on
+      BreakerResistance	      "0.001"
+      SnubberResistance	      "1e6"
+      SnubberCapacitance      "inf"
+      Measurements	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Breaker3"
+      SID		      "58"
+      Ports		      [1, 0, 0, 0, 0, 3, 3]
+      Position		      [175, 820, 240, 875]
+      ZOrder		      134
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseBreakerLib/Three-Phase Breaker"
+      SourceType	      "Three-Phase Breaker"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      InitialState	      "closed"
+      SwitchA		      on
+      SwitchB		      on
+      SwitchC		      on
+      SwitchTimes	      "[4/60  10/60]"
+      External		      on
+      BreakerResistance	      "0.001"
+      SnubberResistance	      "1e6"
+      SnubberCapacitance      "inf"
+      Measurements	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Breaker4"
+      SID		      "59"
+      Ports		      [1, 0, 0, 0, 0, 3, 3]
+      Position		      [175, 1055, 240, 1110]
+      ZOrder		      135
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseBreakerLib/Three-Phase Breaker"
+      SourceType	      "Three-Phase Breaker"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      InitialState	      "closed"
+      SwitchA		      on
+      SwitchB		      on
+      SwitchC		      on
+      SwitchTimes	      "[4/60  10/60]"
+      External		      on
+      BreakerResistance	      "0.001"
+      SnubberResistance	      "1e6"
+      SnubberCapacitance      "inf"
+      Measurements	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Breaker5"
+      SID		      "60"
+      Ports		      [1, 0, 0, 0, 0, 3, 3]
+      Position		      [95, 1240, 160, 1295]
+      ZOrder		      137
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseBreakerLib/Three-Phase Breaker"
+      SourceType	      "Three-Phase Breaker"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      InitialState	      "closed"
+      SwitchA		      on
+      SwitchB		      on
+      SwitchC		      on
+      SwitchTimes	      "[4/60  10/60]"
+      External		      on
+      BreakerResistance	      "0.001"
+      SnubberResistance	      "1e6"
+      SnubberCapacitance      "inf"
+      Measurements	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Breaker6"
+      SID		      "61"
+      Ports		      [1, 0, 0, 0, 0, 3, 3]
+      Position		      [400, 1470, 455, 1535]
+      ZOrder		      138
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseBreakerLib/Three-Phase Breaker"
+      SourceType	      "Three-Phase Breaker"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      InitialState	      "closed"
+      SwitchA		      on
+      SwitchB		      on
+      SwitchC		      on
+      SwitchTimes	      "[4/60  10/60]"
+      External		      on
+      BreakerResistance	      "0.001"
+      SnubberResistance	      "1e6"
+      SnubberCapacitance      "inf"
+      Measurements	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Breaker7"
+      SID		      "62"
+      Ports		      [1, 0, 0, 0, 0, 3, 3]
+      Position		      [585, 1445, 640, 1510]
+      ZOrder		      143
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseBreakerLib/Three-Phase Breaker"
+      SourceType	      "Three-Phase Breaker"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      InitialState	      "closed"
+      SwitchA		      on
+      SwitchB		      on
+      SwitchC		      on
+      SwitchTimes	      "[4/60  10/60]"
+      External		      on
+      BreakerResistance	      "0.001"
+      SnubberResistance	      "1e6"
+      SnubberCapacitance      "inf"
+      Measurements	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Breaker8"
+      SID		      "63"
+      Ports		      [1, 0, 0, 0, 0, 3, 3]
+      Position		      [585, 1360, 640, 1425]
+      ZOrder		      144
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseBreakerLib/Three-Phase Breaker"
+      SourceType	      "Three-Phase Breaker"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      InitialState	      "closed"
+      SwitchA		      on
+      SwitchB		      on
+      SwitchC		      on
+      SwitchTimes	      "[4/60  10/60]"
+      External		      on
+      BreakerResistance	      "0.001"
+      SnubberResistance	      "1e6"
+      SnubberCapacitance      "inf"
+      Measurements	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Breaker9"
+      SID		      "64"
+      Ports		      [1, 0, 0, 0, 0, 3, 3]
+      Position		      [980, 1455, 1035, 1520]
+      ZOrder		      148
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseBreakerLib/Three-Phase Breaker"
+      SourceType	      "Three-Phase Breaker"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      InitialState	      "closed"
+      SwitchA		      on
+      SwitchB		      on
+      SwitchC		      on
+      SwitchTimes	      "[4/60  10/60]"
+      External		      on
+      BreakerResistance	      "0.001"
+      SnubberResistance	      "1e6"
+      SnubberCapacitance      "inf"
+      Measurements	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Parallel RLC Load"
+      SID		      "65"
+      Ports		      [0, 0, 0, 0, 0, 3]
+      Position		      [320, 732, 385, 788]
+      ZOrder		      197
+      NamePlacement	      "alternate"
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseParallelRLCLoadLib/Three-Phase\nParallel RLC Load"
+      SourceType	      "Three-Phase Parallel RLC Load"
+      LConnTagsString	      "A|B|C"
+      Configuration	      "Y (grounded)"
+      NominalVoltage	      "230e3"
+      Vabc		      "[1e3 1e3 1e3]"
+      Vabcp		      "[1e3 1e3 1e3]"
+      NominalFrequency	      "60"
+      UnbalancedPower	      off
+      ActivePower	      "50e3"
+      InductivePower	      "30e3"
+      CapacitivePower	      "0"
+      Pabc		      "[10e3 9e3 11e3]"
+      QLabc		      "[100 90 110]"
+      QCabc		      "[100 90 110]"
+      Pabcp		      "[10e3 9e3 11e3]"
+      QLabcp		      "[100 90 110]"
+      QCabcp		      "[100 90 110]"
+      Measurements	      "None"
+      LoadType		      "constant Z"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Parallel RLC Load1"
+      SID		      "66"
+      Ports		      [0, 0, 0, 0, 0, 3]
+      Position		      [320, 1152, 385, 1208]
+      ZOrder		      198
+      NamePlacement	      "alternate"
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseParallelRLCLoadLib/Three-Phase\nParallel RLC Load"
+      SourceType	      "Three-Phase Parallel RLC Load"
+      LConnTagsString	      "A|B|C"
+      Configuration	      "Y (grounded)"
+      NominalVoltage	      "230e3"
+      Vabc		      "[1e3 1e3 1e3]"
+      Vabcp		      "[1e3 1e3 1e3]"
+      NominalFrequency	      "60"
+      UnbalancedPower	      off
+      ActivePower	      "50e3"
+      InductivePower	      "30e3"
+      CapacitivePower	      "0"
+      Pabc		      "[10e3 9e3 11e3]"
+      QLabc		      "[100 90 110]"
+      QCabc		      "[100 90 110]"
+      Pabcp		      "[10e3 9e3 11e3]"
+      QLabcp		      "[100 90 110]"
+      QCabcp		      "[100 90 110]"
+      Measurements	      "None"
+      LoadType		      "constant Z"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Parallel RLC Load2"
+      SID		      "67"
+      Ports		      [0, 0, 0, 0, 0, 3]
+      Position		      [537, 1590, 593, 1655]
+      ZOrder		      199
+      BlockRotation	      270
+      BlockMirror	      on
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseParallelRLCLoadLib/Three-Phase\nParallel RLC Load"
+      SourceType	      "Three-Phase Parallel RLC Load"
+      LConnTagsString	      "A|B|C"
+      Configuration	      "Y (grounded)"
+      NominalVoltage	      "230e3"
+      Vabc		      "[1e3 1e3 1e3]"
+      Vabcp		      "[1e3 1e3 1e3]"
+      NominalFrequency	      "60"
+      UnbalancedPower	      off
+      ActivePower	      "50e3"
+      InductivePower	      "30e3"
+      CapacitivePower	      "0"
+      Pabc		      "[10e3 9e3 11e3]"
+      QLabc		      "[100 90 110]"
+      QCabc		      "[100 90 110]"
+      Pabcp		      "[10e3 9e3 11e3]"
+      QLabcp		      "[100 90 110]"
+      QCabcp		      "[100 90 110]"
+      Measurements	      "None"
+      LoadType		      "constant Z"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Parallel RLC Load3"
+      SID		      "68"
+      Ports		      [0, 0, 0, 0, 0, 3]
+      Position		      [1112, 1590, 1168, 1655]
+      ZOrder		      200
+      BlockRotation	      270
+      BlockMirror	      on
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseParallelRLCLoadLib/Three-Phase\nParallel RLC Load"
+      SourceType	      "Three-Phase Parallel RLC Load"
+      LConnTagsString	      "A|B|C"
+      Configuration	      "Y (grounded)"
+      NominalVoltage	      "230e3"
+      Vabc		      "[1e3 1e3 1e3]"
+      Vabcp		      "[1e3 1e3 1e3]"
+      NominalFrequency	      "60"
+      UnbalancedPower	      off
+      ActivePower	      "50e3"
+      InductivePower	      "30e3"
+      CapacitivePower	      "0"
+      Pabc		      "[10e3 9e3 11e3]"
+      QLabc		      "[100 90 110]"
+      QCabc		      "[100 90 110]"
+      Pabcp		      "[10e3 9e3 11e3]"
+      QLabcp		      "[100 90 110]"
+      QCabcp		      "[100 90 110]"
+      Measurements	      "None"
+      LoadType		      "constant Z"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Parallel RLC Load4"
+      SID		      "69"
+      Ports		      [0, 0, 0, 0, 0, 3]
+      Position		      [1150, 792, 1215, 848]
+      ZOrder		      201
+      NamePlacement	      "alternate"
+      AttributesFormatString  "\\n"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseParallelRLCLoadLib/Three-Phase\nParallel RLC Load"
+      SourceType	      "Three-Phase Parallel RLC Load"
+      LConnTagsString	      "A|B|C"
+      Configuration	      "Y (grounded)"
+      NominalVoltage	      "230e3"
+      Vabc		      "[1e3 1e3 1e3]"
+      Vabcp		      "[1e3 1e3 1e3]"
+      NominalFrequency	      "60"
+      UnbalancedPower	      off
+      ActivePower	      "50e3"
+      InductivePower	      "30e3"
+      CapacitivePower	      "0"
+      Pabc		      "[10e3 9e3 11e3]"
+      QLabc		      "[100 90 110]"
+      QCabc		      "[100 90 110]"
+      Pabcp		      "[10e3 9e3 11e3]"
+      QLabcp		      "[100 90 110]"
+      QCabcp		      "[100 90 110]"
+      Measurements	      "None"
+      LoadType		      "constant Z"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase V-I Measurement"
+      SID		      "70"
+      Ports		      [0, 2, 0, 0, 0, 3, 3]
+      Position		      [152, 665, 228, 715]
+      ZOrder		      167
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseVIMeasurementLib/Three-Phase\nV-I Measurement"
+      SourceType	      "Three-Phase VI Measurement"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      VoltageMeasurement      "phase-to-phase"
+      SetLabelV		      off
+      LabelV		      "Vabc"
+      Vpu		      off
+      VpuLL		      off
+      CurrentMeasurement      "yes"
+      SetLabelI		      off
+      LabelI		      "Iabc"
+      Ipu		      off
+      Pbase		      "100e6"
+      Vbase		      "500e3"
+      OutputType	      "Complex"
+      PhasorSimulation	      off
+      PSBequivalent	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase V-I Measurement1"
+      SID		      "71"
+      Ports		      [0, 2, 0, 0, 0, 3, 3]
+      Position		      [122, 195, 198, 245]
+      ZOrder		      169
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseVIMeasurementLib/Three-Phase\nV-I Measurement"
+      SourceType	      "Three-Phase VI Measurement"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      VoltageMeasurement      "phase-to-phase"
+      SetLabelV		      off
+      LabelV		      "Vabc"
+      Vpu		      off
+      VpuLL		      off
+      CurrentMeasurement      "yes"
+      SetLabelI		      off
+      LabelI		      "Iabc"
+      Ipu		      off
+      Pbase		      "100e6"
+      Vbase		      "500e3"
+      OutputType	      "Complex"
+      PhasorSimulation	      off
+      PSBequivalent	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase V-I Measurement2"
+      SID		      "72"
+      Ports		      [0, 2, 0, 0, 0, 3, 3]
+      Position		      [92, 1325, 168, 1375]
+      ZOrder		      171
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseVIMeasurementLib/Three-Phase\nV-I Measurement"
+      SourceType	      "Three-Phase VI Measurement"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      VoltageMeasurement      "phase-to-phase"
+      SetLabelV		      off
+      LabelV		      "Vabc"
+      Vpu		      off
+      VpuLL		      off
+      CurrentMeasurement      "yes"
+      SetLabelI		      off
+      LabelI		      "Iabc"
+      Ipu		      off
+      Pbase		      "100e6"
+      Vbase		      "500e3"
+      OutputType	      "Complex"
+      PhasorSimulation	      off
+      PSBequivalent	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase V-I Measurement3"
+      SID		      "73"
+      Ports		      [0, 2, 0, 0, 0, 3, 3]
+      Position		      [690, 1447, 740, 1523]
+      ZOrder		      174
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseVIMeasurementLib/Three-Phase\nV-I Measurement"
+      SourceType	      "Three-Phase VI Measurement"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      VoltageMeasurement      "phase-to-phase"
+      SetLabelV		      off
+      LabelV		      "Vabc"
+      Vpu		      off
+      VpuLL		      off
+      CurrentMeasurement      "yes"
+      SetLabelI		      off
+      LabelI		      "Iabc"
+      Ipu		      off
+      Pbase		      "100e6"
+      Vbase		      "500e3"
+      OutputType	      "Complex"
+      PhasorSimulation	      off
+      PSBequivalent	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase V-I Measurement4"
+      SID		      "74"
+      Ports		      [0, 2, 0, 0, 0, 3, 3]
+      Position		      [737, 1285, 813, 1335]
+      ZOrder		      176
+      BlockRotation	      270
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseVIMeasurementLib/Three-Phase\nV-I Measurement"
+      SourceType	      "Three-Phase VI Measurement"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      VoltageMeasurement      "phase-to-phase"
+      SetLabelV		      off
+      LabelV		      "Vabc"
+      Vpu		      off
+      VpuLL		      off
+      CurrentMeasurement      "yes"
+      SetLabelI		      off
+      LabelI		      "Iabc"
+      Ipu		      off
+      Pbase		      "100e6"
+      Vbase		      "500e3"
+      OutputType	      "Complex"
+      PhasorSimulation	      off
+      PSBequivalent	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase V-I Measurement5"
+      SID		      "75"
+      Ports		      [0, 2, 0, 0, 0, 3, 3]
+      Position		      [1315, 1437, 1365, 1513]
+      ZOrder		      178
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseVIMeasurementLib/Three-Phase\nV-I Measurement"
+      SourceType	      "Three-Phase VI Measurement"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      VoltageMeasurement      "phase-to-phase"
+      SetLabelV		      off
+      LabelV		      "Vabc"
+      Vpu		      off
+      VpuLL		      off
+      CurrentMeasurement      "yes"
+      SetLabelI		      off
+      LabelI		      "Iabc"
+      Ipu		      off
+      Pbase		      "100e6"
+      Vbase		      "500e3"
+      OutputType	      "Complex"
+      PhasorSimulation	      off
+      PSBequivalent	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase V-I Measurement6"
+      SID		      "76"
+      Ports		      [0, 2, 0, 0, 0, 3, 3]
+      Position		      [1027, 670, 1103, 720]
+      ZOrder		      180
+      BlockRotation	      270
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseVIMeasurementLib/Three-Phase\nV-I Measurement"
+      SourceType	      "Three-Phase VI Measurement"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      VoltageMeasurement      "phase-to-phase"
+      SetLabelV		      off
+      LabelV		      "Vabc"
+      Vpu		      off
+      VpuLL		      off
+      CurrentMeasurement      "yes"
+      SetLabelI		      off
+      LabelI		      "Iabc"
+      Ipu		      off
+      Pbase		      "100e6"
+      Vbase		      "500e3"
+      OutputType	      "Complex"
+      PhasorSimulation	      off
+      PSBequivalent	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase V-I Measurement7"
+      SID		      "77"
+      Ports		      [0, 2, 0, 0, 0, 3, 3]
+      Position		      [1027, 270, 1103, 320]
+      ZOrder		      182
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "spsThreePhaseVIMeasurementLib/Three-Phase\nV-I Measurement"
+      SourceType	      "Three-Phase VI Measurement"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   off
+      VoltageMeasurement      "phase-to-phase"
+      SetLabelV		      off
+      LabelV		      "Vabc"
+      Vpu		      off
+      VpuLL		      off
+      CurrentMeasurement      "yes"
+      SetLabelI		      off
+      LabelI		      "Iabc"
+      Ipu		      off
+      Pbase		      "100e6"
+      Vbase		      "500e3"
+      OutputType	      "Complex"
+      PhasorSimulation	      off
+      PSBequivalent	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "powergui"
+      SID		      "80"
+      Ports		      []
+      Position		      [-385, 245, -304, 284]
+      ZOrder		      202
+      Priority		      "1"
+      LibraryVersion	      "5"
+      SourceBlock	      "spspowerguiLib/powergui"
+      SourceType	      "PSB option menu block"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   on
+      SimulationMode	      "Discrete"
+      SampleTime	      "50e-6"
+      frequency		      "60"
+      Iterations	      "50"
+      frequencyindice	      "60"
+      Pbase		      "100e6"
+      ErrMax		      "1e-4"
+      UnitsV		      "kV"
+      UnitsW		      "MW"
+      buscounter	      "0"
+      FunctionMessages	      off
+      echomessages	      off
+      EnableUseOfTLC	      off
+      CurrentSourceSwitches   off
+      DisableSnubberDevices   off
+      DisableRonSwitches      off
+      DisableVfSwitches	      off
+      DisplayEquations	      off
+      AutomaticDiscreteSolvers off
+      SolverType	      "Tustin/Backward Euler (TBE)"
+      Interpol		      off
+      ExternalGateDelay	      off
+      methode		      off
+      Ts		      "100"
+      x0status		      "blocks"
+      SPID		      on
+      SwTol		      "0"
+      HookPort		      off
+      NonlinearTolerance      "1e-4"
+      nMaxIteration	      "100"
+      ContinueOnMaxIteration  off
+      RestoreLinks	      "warning"
+      ResistiveCurrentMeasurement off
+      Frange		      "[0:2:500]"
+      Ylog		      off
+      Xlog		      on
+      ShowGrid		      off
+      save		      off
+      variable		      "ZData"
+      structure		      "0"
+      ZoomFFT		      off
+      StartTime		      "0.0"
+      cycles		      "1"
+      DisplayStyle	      "1"
+      fundamental	      "60"
+      FreqAxis		      off
+      MaxFrequency	      "1000"
+      frequencyindicesteady   "1"
+      RmsSteady		      "1"
+      display		      off
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      184
+      Points		      [1075, 820; 0, -45]
+      DstBlock		      "B6\n(230 kV)"
+      DstPort		      LConn2
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Three-Phase Parallel RLC Load4"
+	SrcPort			LConn2
+	Points			[-60, 0]
+      }
+      Branch {
+	ConnectType		"SRC_DEST"
+	Points			[1075, 876; 0, -56]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Three-Phase Breaker10"
+	  SrcPort		  RConn2
+	  Points		  [0, -39; 280, 0]
+	}
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Three-Phase Breaker12"
+	  SrcPort		  RConn2
+	  Points		  [0, -159; -280, 0]
+	}
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      188
+      SrcBlock		      "Three-Phase Breaker8"
+      SrcPort		      LConn2
+      Points		      [-33, 0; 0, 85]
+      Branch {
+	ConnectType		"DEST_DEST"
+	Points			[537, 1505; 0, -20]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "B4\n(230 kV)"
+	  SrcPort		  LConn2
+	  Points		  [17, 0]
+	}
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Three-Phase Parallel RLC Load2"
+	  SrcPort		  LConn2
+	  Points		  [0, -14; -28, 0; 0, -56]
+	}
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Three-Phase Breaker7"
+	DstPort			LConn2
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      193
+      Points		      [190, 1170; 0, -10]
+      DstBlock		      "B3\n(230 kV)"
+      DstPort		      RConn1
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Three-Phase Breaker5"
+	SrcPort			LConn1
+	Points			[0, -55; 70, 0]
+      }
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Three-Phase Parallel RLC Load1"
+	SrcPort			LConn1
+	Points			[-54, 0; 0, 10; -61, 0]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      196
+      Points		      [526, 1460; 44, 0; 0, 10]
+      DstBlock		      "Three-Phase Breaker7"
+      DstPort		      LConn1
+      Branch {
+	ConnectType		"SRC_DEST"
+	Points			[526, 1490; 0, -30]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "B4\n(230 kV)"
+	  SrcPort		  LConn1
+	  Points		  [6, 0]
+	}
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Three-Phase Parallel RLC Load2"
+	  SrcPort		  LConn1
+	  Points		  [-19, 0; 0, -85]
+	}
+      }
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Three-Phase Breaker8"
+	SrcPort			LConn1
+	Points			[-44, 0; 0, 75]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      201
+      Points		      [1060, 800; 0, -25]
+      DstBlock		      "B6\n(230 kV)"
+      DstPort		      LConn1
+      Branch {
+	ConnectType		"SRC_DEST"
+	Points			[1060, 861; 0, -61]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Three-Phase Breaker10"
+	  SrcPort		  RConn1
+	  Points		  [0, -54; 290, 0]
+	}
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Three-Phase Breaker12"
+	  SrcPort		  RConn1
+	  Points		  [0, -174; -275, 0]
+	}
+      }
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Three-Phase Parallel RLC Load4"
+	SrcPort			LConn1
+	Points			[-75, 0]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      206
+      Points		      [1160, 1500; -60, 0]
+      DstBlock		      "B5\n(230 kV)"
+      DstPort		      LConn3
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Three-Phase Breaker11"
+	SrcPort			LConn3
+	Points			[0, -5; -15, 0]
+      }
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Three-Phase Parallel RLC Load3"
+	SrcPort			LConn3
+	Points			[0, -75]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      209
+      SrcBlock		      "Three-Phase Breaker12"
+      SrcPort		      RConn3
+      Points		      [0, -130; -285, 0]
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"Three-Phase Breaker10"
+	SrcPort			RConn3
+	Points			[0, -10; 270, 0]
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	Points			[1090, 840; 0, 65]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "B6\n(230 kV)"
+	  SrcPort		  LConn3
+	  Points		  [0, 65]
+	}
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Three-Phase Parallel RLC Load4"
+	  SrcPort		  LConn3
+	  Points		  [-45, 0]
+	}
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      214
+      Points		      [1140, 1485; -40, 0]
+      DstBlock		      "B5\n(230 kV)"
+      DstPort		      LConn2
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Three-Phase Breaker11"
+	SrcPort			LConn2
+	Points			[0, -5; -35, 0]
+      }
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Three-Phase Parallel RLC Load3"
+	SrcPort			LConn2
+	Points			[0, -90]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      217
+      SrcBlock		      "Three-Phase Parallel RLC Load3"
+      SrcPort		      LConn1
+      Points		      [0, -105]
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"Three-Phase Breaker11"
+	SrcPort			LConn1
+	Points			[0, -5; -55, 0]
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"B5\n(230 kV)"
+	DstPort			LConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      220
+      Points		      [230, 780; 0, -13; -10, 0; 0, -37]
+      DstBlock		      "Three-Phase V-I Measurement"
+      DstPort		      RConn3
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Three-Phase Breaker3"
+	SrcPort			LConn3
+	Points			[0, -25]
+      }
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Three-Phase Parallel RLC Load"
+	SrcPort			LConn3
+	Points			[-75, 0]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      224
+      SrcBlock		      "Three-Phase Breaker8"
+      SrcPort		      LConn3
+      Points		      [-18, 0; 0, 85]
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Three-Phase Breaker7"
+	DstPort			LConn3
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	Points			[552, 1520; 0, -20]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "B4\n(230 kV)"
+	  SrcPort		  LConn3
+	  Points		  [32, 0]
+	}
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Three-Phase Parallel RLC Load2"
+	  SrcPort		  LConn3
+	  Points		  [0, -24; -33, 0; 0, -31]
+	}
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      228
+      Points		      [205, 1180; 0, -20]
+      DstBlock		      "B3\n(230 kV)"
+      DstPort		      RConn2
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Three-Phase Breaker5"
+	SrcPort			LConn2
+	Points			[0, -14; -5, 0; 0, -31; 75, 0]
+      }
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Three-Phase Parallel RLC Load1"
+	SrcPort			LConn2
+	Points			[-100, 0]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      231
+      Points		      [190, 740; 0, 65; 10, 0]
+      DstBlock		      "Three-Phase Breaker3"
+      DstPort		      LConn1
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Three-Phase V-I Measurement"
+	SrcPort			RConn1
+	Points			[0, 10]
+      }
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Three-Phase Parallel RLC Load"
+	SrcPort			LConn1
+	Points			[-115, 0]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      234
+      SrcBlock		      "Three-Phase Parallel RLC Load1"
+      SrcPort		      LConn3
+      Points		      [-85, 0; 0, -5]
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"Three-Phase Breaker5"
+	SrcPort			LConn3
+	Points			[0, -30; 70, 0]
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"B3\n(230 kV)"
+	DstPort			RConn3
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      237
+      SrcBlock		      "Three-Phase Parallel RLC Load"
+      SrcPort		      LConn2
+      Points		      [-100, 0]
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"Three-Phase Breaker3"
+	SrcPort			LConn2
+	Points			[0, -20; -10, 0; 0, -25]
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Three-Phase V-I Measurement"
+	DstPort			RConn2
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      1
+      SrcBlock		      "Line15"
+      SrcPort		      LConn1
+      Points		      [0, 185]
+      DstBlock		      "Three-Phase V-I Measurement5"
+      DstPort		      RConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      2
+      SrcBlock		      "Three-Phase Breaker13"
+      SrcPort		      RConn1
+      DstBlock		      "230 kV / 15 kV\n200 MVA"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      3
+      SrcBlock		      "230 kV / 15 kV\n200 MVA"
+      SrcPort		      LConn1
+      Points		      [0, 5]
+      DstBlock		      "Three-Phase Breaker14"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      4
+      SrcBlock		      "Three-Phase Breaker3"
+      SrcPort		      RConn2
+      DstBlock		      "Line2"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      5
+      SrcBlock		      "Three-Phase V-I Measurement2"
+      SrcPort		      RConn2
+      Points		      [0, 115]
+      DstBlock		      "Line5"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      6
+      SrcBlock		      "Three-Phase Breaker10"
+      SrcPort		      LConn2
+      Points		      [-10, 0]
+      DstBlock		      "Line11"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      7
+      SrcBlock		      "Three-Phase V-I Measurement1"
+      SrcPort		      RConn1
+      Points		      [0, 32; 10, 0]
+      DstBlock		      "Three-Phase Breaker1"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      8
+      SrcBlock		      "Three-Phase Breaker13"
+      SrcPort		      RConn3
+      DstBlock		      "230 kV / 15 kV\n200 MVA"
+      DstPort		      RConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      9
+      SrcBlock		      "Three-Phase Breaker3"
+      SrcPort		      RConn3
+      Points		      [0, 3; 25, 0]
+      DstBlock		      "Line3"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      10
+      SrcBlock		      "Three-Phase V-I Measurement2"
+      SrcPort		      LConn1
+      DstBlock		      "Three-Phase Breaker5"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      11
+      SrcBlock		      "Three-Phase V-I Measurement4"
+      SrcPort		      RConn2
+      DstBlock		      "Line11"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      12
+      SrcBlock		      "Three-Phase V-I Measurement2"
+      SrcPort		      RConn3
+      Points		      [0, 145]
+      DstBlock		      "Line6"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      13
+      SrcBlock		      "Three-Phase Breaker11"
+      SrcPort		      RConn1
+      Points		      [20, 0; 0, -15]
+      DstBlock		      "Three-Phase V-I Measurement5"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      14
+      SrcBlock		      "Three-Phase Breaker13"
+      SrcPort		      RConn2
+      DstBlock		      "230 kV / 15 kV\n200 MVA"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      15
+      SrcBlock		      "Three-Phase Breaker9"
+      SrcPort		      RConn1
+      DstBlock		      "B5\n(230 kV)"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      16
+      SrcBlock		      "13.8 kV"
+      SrcPort		      RConn3
+      DstBlock		      "B1\n(13.8 kV)"
+      DstPort		      LConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      17
+      SrcBlock		      "Three-Phase V-I Measurement7"
+      SrcPort		      LConn1
+      Points		      [15, 0]
+      DstBlock		      "B7\n(15 kV)"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      18
+      SrcBlock		      "Three-Phase Breaker3"
+      SrcPort		      RConn1
+      Points		      [0, 5]
+      DstBlock		      "Line1"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      19
+      SrcBlock		      "Three-Phase V-I Measurement7"
+      SrcPort		      LConn3
+      Points		      [-5, 0]
+      DstBlock		      "B7\n(15 kV)"
+      DstPort		      LConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      20
+      SrcBlock		      "Three-Phase Breaker4"
+      SrcPort		      LConn1
+      Points		      [0, -12; -35, 0]
+      DstBlock		      "Line1"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      21
+      SrcBlock		      "Three-Phase Breaker7"
+      SrcPort		      RConn3
+      Points		      [3, 0; 0, 10]
+      DstBlock		      "Three-Phase V-I Measurement3"
+      DstPort		      LConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      22
+      SrcBlock		      "Three-Phase V-I Measurement4"
+      SrcPort		      LConn2
+      Points		      [0, 45]
+      DstBlock		      "Three-Phase Breaker8"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      23
+      SrcBlock		      "Line7"
+      SrcPort		      RConn1
+      Points		      [50, 0]
+      DstBlock		      "Three-Phase Breaker9"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      24
+      SrcBlock		      "Three-Phase Breaker2"
+      SrcPort		      LConn1
+      Points		      [0, -15; -10, 0]
+      DstBlock		      "13.8 kV / 230 kV\n100 MVA1"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      25
+      SrcBlock		      "B6\n(230 kV)"
+      SrcPort		      RConn1
+      Points		      [0, -2; -20, 0]
+      DstBlock		      "Three-Phase V-I Measurement6"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      26
+      SrcBlock		      "Three-Phase V-I Measurement7"
+      SrcPort		      RConn2
+      Points		      [0, 37; -5, 0]
+      DstBlock		      "Three-Phase Breaker14"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      27
+      SrcBlock		      "Line12"
+      SrcPort		      RConn1
+      Points		      [-25, 0]
+      DstBlock		      "Three-Phase Breaker10"
+      DstPort		      LConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      28
+      SrcBlock		      "Three-Phase Breaker1"
+      SrcPort		      RConn1
+      Points		      [5, 0]
+      DstBlock		      "13.8 kV / 230 kV\n100 MVA1"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      29
+      SrcBlock		      "Three-Phase Breaker14"
+      SrcPort		      RConn3
+      Points		      [-5, 0]
+      DstBlock		      "Three-Phase V-I Measurement7"
+      DstPort		      RConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      30
+      SrcBlock		      "B3\n(230 kV)"
+      SrcPort		      LConn3
+      DstBlock		      "Three-Phase Breaker4"
+      DstPort		      RConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      31
+      SrcBlock		      "Line4"
+      SrcPort		      RConn1
+      Points		      [35, 0; 0, 20]
+      DstBlock		      "Three-Phase Breaker6"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      32
+      SrcBlock		      "13.8 kV"
+      SrcPort		      RConn2
+      DstBlock		      "B1\n(13.8 kV)"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      33
+      SrcBlock		      "Three-Phase V-I Measurement1"
+      SrcPort		      LConn1
+      DstBlock		      "B1\n(13.8 kV)"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      34
+      SrcBlock		      "B2\n(230 kV)"
+      SrcPort		      LConn1
+      DstBlock		      "Three-Phase Breaker2"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      35
+      SrcBlock		      "Three-Phase V-I Measurement7"
+      SrcPort		      RConn1
+      Points		      [0, 37; -15, 0]
+      DstBlock		      "Three-Phase Breaker14"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      36
+      SrcBlock		      "B2\n(230 kV)"
+      SrcPort		      LConn3
+      Points		      [0, -5; 10, 0]
+      DstBlock		      "Three-Phase Breaker2"
+      DstPort		      RConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      37
+      SrcBlock		      "Three-Phase Breaker7"
+      SrcPort		      RConn1
+      DstBlock		      "Three-Phase V-I Measurement3"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      38
+      SrcBlock		      "Three-Phase Breaker12"
+      SrcPort		      LConn1
+      Points		      [0, 18; -50, 0]
+      DstBlock		      "Line13"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      39
+      SrcBlock		      "B3\n(230 kV)"
+      SrcPort		      LConn1
+      DstBlock		      "Three-Phase Breaker4"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      40
+      SrcBlock		      "Three-Phase V-I Measurement5"
+      SrcPort		      RConn2
+      Points		      [14, 0; 0, -163; -44, 0]
+      DstBlock		      "Line14"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      41
+      SrcBlock		      "Three-Phase V-I Measurement6"
+      SrcPort		      RConn3
+      DstBlock		      "Three-Phase Breaker13"
+      DstPort		      LConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      42
+      SrcBlock		      "Three-Phase V-I Measurement1"
+      SrcPort		      LConn3
+      DstBlock		      "B1\n(13.8 kV)"
+      DstPort		      RConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      43
+      SrcBlock		      "B6\n(230 kV)"
+      SrcPort		      RConn3
+      DstBlock		      "Three-Phase V-I Measurement6"
+      DstPort		      LConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      44
+      SrcBlock		      "Three-Phase V-I Measurement4"
+      SrcPort		      LConn1
+      Points		      [0, 25]
+      DstBlock		      "Three-Phase Breaker8"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      45
+      SrcBlock		      "Three-Phase V-I Measurement4"
+      SrcPort		      RConn1
+      Points		      [0, -87; -35, 0]
+      DstBlock		      "Line10"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      46
+      SrcBlock		      "Three-Phase V-I Measurement"
+      SrcPort		      LConn1
+      DstBlock		      "B2\n(230 kV)"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      47
+      SrcBlock		      "Three-Phase V-I Measurement4"
+      SrcPort		      RConn3
+      Points		      [0, -83; 35, 0]
+      DstBlock		      "Line12"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      48
+      SrcBlock		      "Three-Phase V-I Measurement3"
+      SrcPort		      RConn3
+      Points		      [40, 0]
+      DstBlock		      "Line9"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      49
+      SrcBlock		      "Three-Phase Breaker11"
+      SrcPort		      RConn3
+      Points		      [0, -5]
+      DstBlock		      "Three-Phase V-I Measurement5"
+      DstPort		      LConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      50
+      SrcBlock		      "Line13"
+      SrcPort		      LConn1
+      Points		      [0, 21; 85, 0]
+      DstBlock		      "Three-Phase V-I Measurement5"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      51
+      SrcBlock		      "Three-Phase Breaker6"
+      SrcPort		      RConn1
+      Points		      [8, 0; 0, 5]
+      DstBlock		      "B4\n(230 kV)"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      52
+      SrcBlock		      "Three-Phase V-I Measurement3"
+      SrcPort		      RConn2
+      Points		      [20, 0; 0, 5]
+      DstBlock		      "Line8"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      53
+      SrcBlock		      "230 kV / 15 kV\n200 MVA"
+      SrcPort		      LConn2
+      Points		      [0, 5]
+      DstBlock		      "Three-Phase Breaker14"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      54
+      SrcBlock		      "Three-Phase V-I Measurement2"
+      SrcPort		      LConn3
+      DstBlock		      "Three-Phase Breaker5"
+      DstPort		      RConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      55
+      SrcBlock		      "Line7"
+      SrcPort		      LConn1
+      Points		      [-20, 0; 0, 10]
+      DstBlock		      "Three-Phase V-I Measurement3"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      56
+      SrcBlock		      "Three-Phase V-I Measurement2"
+      SrcPort		      LConn2
+      DstBlock		      "Three-Phase Breaker5"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      57
+      SrcBlock		      "Three-Phase V-I Measurement1"
+      SrcPort		      RConn2
+      Points		      [0, 70]
+      DstBlock		      "Three-Phase Breaker1"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      58
+      SrcBlock		      "Three-Phase V-I Measurement6"
+      SrcPort		      RConn1
+      DstBlock		      "Three-Phase Breaker13"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      59
+      SrcBlock		      "Three-Phase Breaker8"
+      SrcPort		      RConn3
+      Points		      [145, 0]
+      DstBlock		      "Three-Phase V-I Measurement4"
+      DstPort		      LConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      60
+      SrcBlock		      "15 kV"
+      SrcPort		      RConn3
+      DstBlock		      "B7\n(15 kV)"
+      DstPort		      RConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      61
+      SrcBlock		      "Three-Phase V-I Measurement2"
+      SrcPort		      RConn1
+      Points		      [0, 85]
+      DstBlock		      "Line4"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      62
+      SrcBlock		      "15 kV"
+      SrcPort		      RConn2
+      DstBlock		      "B7\n(15 kV)"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      63
+      SrcBlock		      "15 kV"
+      SrcPort		      RConn1
+      DstBlock		      "B7\n(15 kV)"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      64
+      SrcBlock		      "Three-Phase V-I Measurement7"
+      SrcPort		      LConn2
+      Points		      [5, 0]
+      DstBlock		      "B7\n(15 kV)"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      65
+      SrcBlock		      "Ground1"
+      SrcPort		      LConn1
+      DstBlock		      "13.8 kV"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      66
+      SrcBlock		      "Three-Phase Breaker4"
+      SrcPort		      LConn3
+      Points		      [0, -12; 25, 0]
+      DstBlock		      "Line3"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      67
+      SrcBlock		      "Three-Phase Breaker2"
+      SrcPort		      LConn2
+      Points		      [-10, 0]
+      DstBlock		      "13.8 kV / 230 kV\n100 MVA1"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      68
+      SrcBlock		      "Ground2"
+      SrcPort		      LConn1
+      DstBlock		      "15 kV"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      69
+      SrcBlock		      "Three-Phase Breaker9"
+      SrcPort		      RConn3
+      Points		      [8, 0; 0, -10]
+      DstBlock		      "B5\n(230 kV)"
+      DstPort		      RConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      70
+      SrcBlock		      "Line6"
+      SrcPort		      RConn1
+      Points		      [50, 0; 0, -10]
+      DstBlock		      "Three-Phase Breaker6"
+      DstPort		      LConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      71
+      SrcBlock		      "Three-Phase Breaker7"
+      SrcPort		      RConn2
+      Points		      [10, 0; 0, 5]
+      DstBlock		      "Three-Phase V-I Measurement3"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      72
+      SrcBlock		      "Three-Phase Breaker11"
+      SrcPort		      RConn2
+      Points		      [45, 0; 0, -10]
+      DstBlock		      "Three-Phase V-I Measurement5"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      73
+      SrcBlock		      "Three-Phase Breaker4"
+      SrcPort		      LConn2
+      Points		      [-5, 0]
+      DstBlock		      "Line2"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      74
+      SrcBlock		      "Three-Phase Breaker12"
+      SrcPort		      LConn2
+      Points		      [-10, 0]
+      DstBlock		      "Line14"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      75
+      SrcBlock		      "Three-Phase V-I Measurement6"
+      SrcPort		      RConn2
+      DstBlock		      "Three-Phase Breaker13"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      76
+      SrcBlock		      "13.8 kV"
+      SrcPort		      RConn1
+      DstBlock		      "B1\n(13.8 kV)"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      77
+      SrcBlock		      "Three-Phase V-I Measurement"
+      SrcPort		      LConn2
+      DstBlock		      "B2\n(230 kV)"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      78
+      SrcBlock		      "Line9"
+      SrcPort		      RConn1
+      Points		      [16, 0; 0, -25]
+      DstBlock		      "Three-Phase Breaker9"
+      DstPort		      LConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      79
+      SrcBlock		      "Three-Phase Breaker9"
+      SrcPort		      RConn2
+      Points		      [0, -5]
+      DstBlock		      "B5\n(230 kV)"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      80
+      SrcBlock		      "Line8"
+      SrcPort		      RConn1
+      Points		      [0, -10]
+      DstBlock		      "Three-Phase Breaker9"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      81
+      SrcBlock		      "Three-Phase Breaker6"
+      SrcPort		      RConn2
+      DstBlock		      "B4\n(230 kV)"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      82
+      SrcBlock		      "Three-Phase V-I Measurement1"
+      SrcPort		      LConn2
+      DstBlock		      "B1\n(13.8 kV)"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      83
+      SrcBlock		      "230 kV / 15 kV\n200 MVA"
+      SrcPort		      LConn3
+      Points		      [0, 5]
+      DstBlock		      "Three-Phase Breaker14"
+      DstPort		      LConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      84
+      SrcBlock		      "13.8 kV / 230 kV\n100 MVA1"
+      SrcPort		      LConn2
+      DstBlock		      "Three-Phase Breaker1"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      85
+      SrcBlock		      "B3\n(230 kV)"
+      SrcPort		      LConn2
+      DstBlock		      "Three-Phase Breaker4"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      86
+      SrcBlock		      "Line5"
+      SrcPort		      RConn1
+      Points		      [35, 0; 0, 5]
+      DstBlock		      "Three-Phase Breaker6"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      87
+      SrcBlock		      "Three-Phase Breaker1"
+      SrcPort		      RConn3
+      Points		      [-5, 0]
+      DstBlock		      "13.8 kV / 230 kV\n100 MVA1"
+      DstPort		      LConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      88
+      SrcBlock		      "Line10"
+      SrcPort		      RConn1
+      Points		      [0, -7; 45, 0]
+      DstBlock		      "Three-Phase Breaker10"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      89
+      SrcBlock		      "Three-Phase V-I Measurement1"
+      SrcPort		      RConn3
+      Points		      [0, 25; 10, 0]
+      DstBlock		      "Three-Phase Breaker1"
+      DstPort		      LConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      90
+      SrcBlock		      "B6\n(230 kV)"
+      SrcPort		      RConn2
+      Points		      [0, -2; -10, 0]
+      DstBlock		      "Three-Phase V-I Measurement6"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      91
+      SrcBlock		      "B2\n(230 kV)"
+      SrcPort		      LConn2
+      Points		      [0, -10]
+      DstBlock		      "Three-Phase Breaker2"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      92
+      SrcBlock		      "Three-Phase Breaker2"
+      SrcPort		      LConn3
+      Points		      [0, -12; -10, 0]
+      DstBlock		      "13.8 kV / 230 kV\n100 MVA1"
+      DstPort		      RConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      93
+      SrcBlock		      "Three-Phase Breaker6"
+      SrcPort		      RConn3
+      Points		      [0, -5]
+      DstBlock		      "B4\n(230 kV)"
+      DstPort		      RConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      94
+      SrcBlock		      "Line15"
+      SrcPort		      RConn1
+      Points		      [0, -55; -30, 0]
+      DstBlock		      "Three-Phase Breaker12"
+      DstPort		      LConn3
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      95
+      SrcBlock		      "Three-Phase V-I Measurement"
+      SrcPort		      LConn3
+      DstBlock		      "B2\n(230 kV)"
+      DstPort		      RConn3
+    }
+    Line {
+      ZOrder		      96
+      SrcBlock		      "Constant9"
+      SrcPort		      1
+      Points		      [14, 0; 0, 40]
+      DstBlock		      "Three-Phase Breaker11"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      97
+      SrcBlock		      "Three-Phase V-I Measurement2"
+      SrcPort		      2
+      DstBlock		      "Scope4"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      98
+      SrcBlock		      "Constant6"
+      SrcPort		      1
+      DstBlock		      "Three-Phase Breaker8"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      99
+      SrcBlock		      "Constant11"
+      SrcPort		      1
+      Points		      [70, 0]
+      DstBlock		      "Three-Phase Breaker10"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      100
+      SrcBlock		      "Constant7"
+      SrcPort		      1
+      Points		      [6, 0; 0, 15; 43, 0; 0, 25]
+      DstBlock		      "Three-Phase Breaker7"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      101
+      SrcBlock		      "Constant8"
+      SrcPort		      1
+      Points		      [17, 0; 0, 30]
+      DstBlock		      "Three-Phase Breaker9"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      102
+      SrcBlock		      "Constant"
+      SrcPort		      1
+      DstBlock		      "Three-Phase Breaker1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      103
+      SrcBlock		      "Constant13"
+      SrcPort		      1
+      DstBlock		      "Three-Phase Breaker14"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      104
+      SrcBlock		      "Constant10"
+      SrcPort		      1
+      Points		      [55, 0]
+      DstBlock		      "Three-Phase Breaker12"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      105
+      SrcBlock		      "Constant2"
+      SrcPort		      1
+      Points		      [25, 0]
+      DstBlock		      "Three-Phase Breaker3"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      106
+      SrcBlock		      "Three-Phase V-I Measurement7"
+      SrcPort		      1
+      Points		      [0, 15; -35, 0]
+      DstBlock		      "Scope3"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      107
+      SrcBlock		      "Constant4"
+      SrcPort		      1
+      Points		      [30, 0]
+      DstBlock		      "Three-Phase Breaker5"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      108
+      SrcBlock		      "Three-Phase V-I Measurement7"
+      SrcPort		      2
+      Points		      [0, 6; -35, 0]
+      DstBlock		      "Scope3"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      109
+      SrcBlock		      "Constant3"
+      SrcPort		      1
+      Points		      [35, 0]
+      DstBlock		      "Three-Phase Breaker4"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      110
+      SrcBlock		      "Constant5"
+      SrcPort		      1
+      Points		      [22, 0; 0, 50]
+      DstBlock		      "Three-Phase Breaker6"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      111
+      SrcBlock		      "Constant1"
+      SrcPort		      1
+      Points		      [15, 0]
+      DstBlock		      "Three-Phase Breaker2"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      112
+      SrcBlock		      "Three-Phase V-I Measurement6"
+      SrcPort		      1
+      Points		      [0, -23; -90, 0]
+      DstBlock		      "Scope1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      113
+      SrcBlock		      "Three-Phase V-I Measurement5"
+      SrcPort		      2
+      DstBlock		      "Scope7"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      114
+      SrcBlock		      "Three-Phase V-I Measurement4"
+      SrcPort		      1
+      DstBlock		      "Scope6"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      115
+      SrcBlock		      "Three-Phase V-I Measurement"
+      SrcPort		      2
+      DstBlock		      "Scope"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      116
+      SrcBlock		      "Three-Phase V-I Measurement3"
+      SrcPort		      2
+      Points		      [4, 0; 0, -25]
+      DstBlock		      "Scope5"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      117
+      SrcBlock		      "Three-Phase V-I Measurement3"
+      SrcPort		      1
+      Points		      [12, 0; 0, -25]
+      DstBlock		      "Scope5"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      118
+      SrcBlock		      "Three-Phase V-I Measurement1"
+      SrcPort		      2
+      Points		      [0, 10]
+      DstBlock		      "Scope2"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      119
+      SrcBlock		      "Three-Phase V-I Measurement2"
+      SrcPort		      1
+      DstBlock		      "Scope4"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      120
+      SrcBlock		      "Three-Phase V-I Measurement4"
+      SrcPort		      2
+      DstBlock		      "Scope6"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      121
+      SrcBlock		      "Three-Phase V-I Measurement1"
+      SrcPort		      1
+      Points		      [0, 3; -15, 0]
+      DstBlock		      "Scope2"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      122
+      SrcBlock		      "Three-Phase V-I Measurement"
+      SrcPort		      1
+      DstBlock		      "Scope"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      123
+      SrcBlock		      "Three-Phase V-I Measurement6"
+      SrcPort		      2
+      Points		      [0, -32; -90, 0]
+      DstBlock		      "Scope1"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      124
+      SrcBlock		      "Three-Phase V-I Measurement5"
+      SrcPort		      1
+      DstBlock		      "Scope7"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      125
+      SrcBlock		      "Constant12"
+      SrcPort		      1
+      Points		      [13, 0; 0, -38; 42, 0]
+      DstBlock		      "Three-Phase Breaker13"
+      DstPort		      1
+    }
+  }
+}
